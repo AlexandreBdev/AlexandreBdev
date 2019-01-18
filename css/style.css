@@ -1,0 +1,210 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+    -webkit-border-radius: 25px; /* Chrome & nouvelles versions d'Opera */
+    -moz-border-radius: 100px; /* Firefox */
+    -o-border-radius: 25px; /* Anciennes versions d'Opera */
+    -ms-border-radius: 25px; /* Internet Explorer */
+    border-radius: 25px;
+}
+
+@media (min-width:768px){
+    .barremenu{
+        height: 50px;
+    }
+                        
+    .nom{
+        float: left;
+    }
+    .infophoto{
+        display:inline-block;
+        text-align: center;
+        padding: 10px;
+        background-color: red;
+    }
+    .infoname{
+        display:inline-block;
+        margin: 0 0 0 0px;
+        padding: 0 0 0 0px;
+        vertical-align:100px;
+        background-color: green;
+    }
+    .infoname h1{
+        height: 50px;
+        margin: 0 0 0 0px;
+        padding: 0 0 0 0px;
+    }
+    .infoname h3{
+        height: 110px;
+        margin: 0 0 0 0px;
+        padding: 0 0 0 0px;
+    }
+    .infoph{
+        display:inline-block;
+        padding: 50px;
+        margin-bottom: 50px;
+        background-color: yellow;
+    }
+}
+
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+    
+.nom{
+    width: 386px;
+    display:inline-block;
+    margin-left: 55px;
+    font-style: bold;
+}
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    width: 100px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size : 0.9em;
+}
+
+
+nav {
+    width: 576px;
+    display:inline-block;
+}
+
+
+img {
+    border-radius:50%;
+    text-align:center;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+.barremenu{
+    background-color: #2b74b8;
+    color:white;
+}
+
+
+.infophoto{
+    text-align:center;
+}
+
+
+.infophoto h3{
+    color:#2b74b8;
+    font-size: 20px;
+}
+
+
+.presentation{
+    background-color: #2b74b8;
+    color:white;
+}
+
+
+.presentation p {
+    margin-left: 10px;
+}
+
+
+.exppro{
+    background-color: white;
+    color: black;
+}
+
+
+.exppro p {
+    margin-left: 10px;
+}
+
+
+.exppro p strong {
+    font-style: bold;
+}
+
+
+.formation{
+    background-color: #2b74b8;
+    color:white;
+}
+.formation p {
+    margin-left: 10px;
+}
+
+.passions{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+}
+
+.important{
+    font-weight: bold;
+}
+
+.passions p {
+    margin-left: 10px;
+}
+
+.autres{
+    background-color : #2b74b8;
+    color:  white;
+    padding: 10px;
+}
+
+.autres p {
+    margin-left: 55px;
+}
+
+.autres p  a {
+    color: white;
+}
+
+h3{
+    text-align:center;
+}
+
+h1 {
+    text-align:center;
+}
+
+.duree{
+    float: right;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: space-between;
+    padding: 0em 0.5em;
+}
+
+.bac
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: space-between;
+    padding: 0em 0.5em;
+}
+
+
+@media (max-width:768px){
+    nav li a{
+        display:none;
+    }
+}
